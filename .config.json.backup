@@ -854,6 +854,26 @@
      "file": "/home/pi/.node-red/node_modules/node-red-contrib-md5/md5.js"
     }
    }
+  },
+  "node-red-contrib-influxdb": {
+   "name": "node-red-contrib-influxdb",
+   "version": "0.2.1",
+   "local": true,
+   "nodes": {
+    "influxdb": {
+     "name": "influxdb",
+     "types": [
+      "influxdb",
+      "influxdb out",
+      "influxdb batch",
+      "influxdb in"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-influxdb",
+     "file": "/home/pi/.node-red/node_modules/node-red-contrib-influxdb/influxdb.js"
+    }
+   }
   }
  },
  "_credentialSecret": "39fdc8efb86441d5571cd799b919fd14e30ef736cf0eaf1551d80001b0fa1c89",
@@ -876,15 +896,15 @@
   "admin": {
    "editor": {
     "view": {
-     "view-grid-size": 20,
+     "view-grid-size": "20",
      "view-node-status": true,
      "view-show-tips": true,
      "view-snap-grid": true,
      "view-show-grid": true
     }
    },
-   "menu-deploymenu-item-node": false,
-   "menu-deploymenu-item-full": true,
+   "menu-deploymenu-item-node": true,
+   "menu-deploymenu-item-full": false,
    "menu-menu-item-sidebar": true
   }
  }
