@@ -616,7 +616,7 @@
   },
   "node-red-dashboard": {
    "name": "node-red-dashboard",
-   "version": "2.9.4",
+   "version": "2.9.6",
    "local": true,
    "nodes": {
     "ui_base": {
@@ -820,6 +820,40 @@
      "file": "/home/pi/.node-red/node_modules/node-red-dashboard/nodes/ui_group.js"
     }
    }
+  },
+  "node-red-contrib-http-request-multipart": {
+   "name": "node-red-contrib-http-request-multipart",
+   "version": "0.2.11",
+   "local": true,
+   "nodes": {
+    "www-request-multipart": {
+     "name": "www-request-multipart",
+     "types": [
+      "www-request-multipart"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-http-request-multipart",
+     "file": "/home/pi/.node-red/node_modules/node-red-contrib-http-request-multipart/www-request-multipart.js"
+    }
+   }
+  },
+  "node-red-contrib-md5": {
+   "name": "node-red-contrib-md5",
+   "version": "1.0.4",
+   "local": true,
+   "nodes": {
+    "md5": {
+     "name": "md5",
+     "types": [
+      "md5"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-md5",
+     "file": "/home/pi/.node-red/node_modules/node-red-contrib-md5/md5.js"
+    }
+   }
   }
  },
  "_credentialSecret": "39fdc8efb86441d5571cd799b919fd14e30ef736cf0eaf1551d80001b0fa1c89",
@@ -849,8 +883,9 @@
      "view-show-grid": true
     }
    },
-   "menu-deploymenu-item-node": true,
-   "menu-deploymenu-item-full": false
+   "menu-deploymenu-item-node": false,
+   "menu-deploymenu-item-full": true,
+   "menu-menu-item-sidebar": true
   }
  }
 }
